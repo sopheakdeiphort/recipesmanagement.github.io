@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f9f8;
+    color: #333;
+  }
+
+  /* Topbar Styles */
+  .topbar {
+    background-color: #edf4ef;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .topbar h1 {
+    font-size: 1.5em;
+    color: #28a745;
+  }
+
+  .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-bar input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .topbar nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  .topbar nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+  }
+
+  .topbar nav a:hover {
+    color: #28a745;
+  }
+
+  /* Main Content */
+  .main-content {
+    padding: 20px;
+  }
+
+  .banner {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner .text {
+    max-width: 60%;
+  }
+
+  .banner h2 {
+    font-size: 2.5em;
+    color: #28a745;
+  }
+
+  .banner p {
+    margin: 10px 0;
+    color: #666;
+  }
+
+  .banner img {
+    max-width: 50%;
+    border-radius: 10px;
+  }
+
+  .add-recipe-form-container {
+  display: none; /* Initially hidden */
+  }
+
+  .main-content h3{
+    color: #28a745;
+  }
+  .main-content label{
+    color: #28a745;
+  }
+  .main-content select{
+    color: #28a745;
+  }
